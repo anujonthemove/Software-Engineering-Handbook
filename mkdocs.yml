@@ -1,0 +1,51 @@
+site_name: Software Engineering Handbook
+site_description: Software Engineering Handbook
+
+repo_url: https://github.com/anujonthemove/Software-Engineering-Handbook
+repo_name: anujonthemove/Software-Engineering-Handbook
+
+
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    
+    # - navigation.tracking
+    # - navigation.tabs.sticky
+    
+  palette:
+    primary: black
+    # accent: indigo
+  font:
+    text: Roboto Mono
+
+    # # Palette toggle for light mode
+    # - scheme: default
+    #   toggle:
+    #     icon: material/brightness-7 
+    #     name: Switch to dark mode
+
+    # # Palette toggle for dark mode
+    # - scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to light mode
+
+
+markdown_extensions:
+  - meta
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.magiclink
+  
+
+nav:
+  - Home: 'index.md'
+  # - Why Pipenv: 'pipenv.md'
+  
