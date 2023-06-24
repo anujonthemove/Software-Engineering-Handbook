@@ -1,3 +1,5 @@
+# Prerequisites
+
 
 ## 🔑 Python, Virtual Environment, VS Code(Opt)
 
@@ -49,7 +51,7 @@
 
     This should display the version of Python3 that you just installed.
 
-    #### 🎨 Install VS Code
+    #### 🎨 Install VS Code on Linux
 
     1. Install Visual Studio Code via Snap. Snap is a software deployment and package management system developed by Canonical (the company behind Ubuntu). It allows you to install software and all its dependencies via a single command. Run the following command to install Visual Studio Code:
 
@@ -101,7 +103,7 @@
     4. Verify that the latest version of Python and IDLE installed correctly. To do this, double-click IDLE, which is the integrated development environment that comes with Python. If everything works correctly, IDLE will display the Python shell.
 
 
-    #### 🎨 Install VS Code
+    #### 🎨 Install VS Code on MacOS
 
     1. Download Visual Studio Code for MacOS from [VS Code official website](https://code.visualstudio.com/).
 
@@ -142,7 +144,7 @@
 
         ```
 
-    #### 🎨 Install VS Code
+    #### 🎨 Install VS Code on Windows
 
     1. Download the Visual Studio Code installer for Windows.
     2. Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). This will only take a minute.

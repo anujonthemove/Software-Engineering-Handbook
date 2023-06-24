@@ -6,8 +6,10 @@
 
 This template is designed around the three core components of a Machine Learning project: Data, Code, and Models. The goal is to keep these components together in the project structure, making it easier to manage and maintain.
 
-- **Data & Models**: 📊 These are integral parts of the project and should be included within the project structure.
 - **Code**: 🔢 The codebase is typically version-controlled and pushed to a remote repository on platforms like GitHub, GitLab, BitBucket, or any cloud-based Git service.
+
+- **Data & Models**: 📊 These are integral parts of the project and should be included within the project structure. These files could be very large in size and hence they should never be pushed to git.
+
 
     ### ⚠️ Common Issues 🚧
 
@@ -20,8 +22,10 @@ This template is designed around the three core components of a Machine Learning
 
     This template addresses these issues with the following features:
 
+    - **Pre-defined Project Structure**: 🗂️ The template provides a well-structured layout to store all your files, data, models, and other artifacts. This structure remains consistent throughout the project's life cycle, promoting cleanliness and organization. 
+
     - **.gitignore**: 🛡️ A well-crafted .gitignore file ensures that unwanted files are not pushed to the remote repository.
-    - **Pre-defined Project Structure**: 🗂️ The template provides a structured layout to store all your files, data, models, and other artifacts. This structure remains consistent throughout the project's life cycle, promoting cleanliness and organization. 
+
 
 
 
@@ -60,3 +64,26 @@ ____
 
 ```
 
+
+<details>
+<summary> <b> 2. 🤔 What is the use of `workspace` folder? </b> </summary>
+
+*	The `workspaces` folder is intended for scenarios where multiple people are working on the same project on the same machine. Inside the `workspaces` folder, you can create subfolders named after each developer, allowing them to clone the project and work on different branches. These subdirectories are not tracked by Git, enabling multiple people to collaborate on the same project without conflicts. To incorporate changes, developers can merge their branches with a common branch located at the root level.
+
+</details>
+
+
+<details>
+<summary> <b> 4. 🤔 Is it inspired from cookie-cutter project template? </b> </summary>
+
+*	In short, no. While there may be similarities in naming conventions, the Python Machine Learning Template was created based on the specific needs of machine learning projects, such as reinforcement learning, computer vision, and natural language processing. However, we do appreciate the Jupyter Notebook naming convention used in the cookie-cutter project template and we recommend that users should follow it.
+
+	*	Here it is:
+
+		*Naming convention is a number (for ordering), the creator's initials, and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`.* i.e., it follows a format of `<number>-<initials>-<short-description>`, e.g., `1.0-jqp-initial-data-exploration.ipynb`
+
+</details>
+
+Give it a try and experience the benefits of a simplified and well-structured project! Happy coding! 👩‍💻👨‍💻
+
+🚀 By adopting this clean and organized project structure, you enhance accessibility and maintainability, allowing for seamless development and collaboration.
