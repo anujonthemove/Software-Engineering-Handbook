@@ -52,6 +52,21 @@ Replace [OPTIONS] with any combination of the following options:
 
 ____
 
+
+
+## 🎥 Demo
+
+This demo assumes that you've already set up your own project using the Python Machine Learning Template. For the purposes of this demonstration, we'll refer to this project as `Demo Project`.
+
+The video tutorial will guide you through the necessary steps for setting up your project. Please note that the video does not include the process of clearing the readme at the end of the setup.
+
+For more detailed instructions and additional information, please refer to the documentation provided below. This will give you a comprehensive understanding of the setup process and how to clear the readme.
+
+
+<script async id="asciicast-aLntFu3A4w0JWivMfXLzfVvCv" src="https://asciinema.org/a/aLntFu3A4w0JWivMfXLzfVvCv.js"></script>
+
+____
+
 ## Command usage
 
 === "🐧  Linux / 🍎 MacOS"

@@ -61,7 +61,11 @@ markdown_extensions:
   - pymdownx.magiclink
   - admonition
 
+extra_css:
+  - stylesheets/asciinema-player.css
 
+extra_javascript:
+  - javascripts/asciinema-player.min.js
 
 plugins:
   - glightbox

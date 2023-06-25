@@ -72,3 +72,4 @@ check mkdocs to structure the above
 * For Windows users, it's important to note that proxy settings made through editing the environment variables `$HTTP_PROXY` and `$HTTPS_PROXY` require elevated permissions.
 
 * To simplify handling proxy url for every pip install, you can now utilize `Pipenv`. Pipenv automatically reads the environment variables and incorporates them into your project.
+
