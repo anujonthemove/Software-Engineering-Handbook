@@ -2,29 +2,29 @@
 
 
 
-## 📚 Philosophy 🧠
+## 🧠 Philosophy
 
-This template is designed around the three core components of a Machine Learning project: Data, Code, and Models. The goal is to keep these components together in the project structure, making it easier to manage and maintain.
+> This template is designed around the three core components of a Machine Learning project: Data, Code, and Models. The goal is to keep these components together in the project structure, making it easier to manage and maintain.
 
-- **Code**: 🔢 The codebase is typically version-controlled and pushed to a remote repository on platforms like GitHub, GitLab, BitBucket, or any cloud-based Git service.
+- 🔢 **Code**: The codebase is typically version-controlled and pushed to a remote repository on platforms like GitHub, GitLab, BitBucket, or any cloud-based Git service.
 
-- **Data & Models**: 📊 These are integral parts of the project and should be included within the project structure. These files could be very large in size and hence they should never be pushed to git.
+- 📊 **Data & Models**:  These are integral parts of the project and should be included within the project structure. These files could be very large in size and hence they should never be pushed to git.
 
 
-    ### ⚠️ Common Issues 🚧
+    ### ⚠️ Common Issues 
 
     Often, developers face the following challenges:
 
-    - **Data and Model Segregation**: 📂 At the end of the day, developers often find themselves segregating data, models, and other artifacts from the code before pushing changes to the remote repository.
-    - **Accidental Uploads**: 🙈 There's a risk of accidentally pushing unwanted files to the remote repository.
+    - 📂 **Data and Model Segregation**:  At the end of the day, developers often find themselves segregating data, models, and other artifacts from the code before pushing changes to the remote repository.
+    - 🙈 **Accidental Uploads**:  There's a risk of accidentally pushing unwanted files to the remote repository.
 
-    ### ✅ Our Solution 🎯
+    ### 🎯 Our Solution 
 
     This template addresses these issues with the following features:
 
-    - **Pre-defined Project Structure**: 🗂️ The template provides a well-structured layout to store all your files, data, models, and other artifacts. This structure remains consistent throughout the project's life cycle, promoting cleanliness and organization. 
+    - 🗂️ **Pre-defined Project Structure**:  The template provides a well-structured layout to store all your files, data, models, and other artifacts. This structure remains consistent throughout the project's life cycle, promoting cleanliness and organization. 
 
-    - **.gitignore**: 🛡️ A well-crafted .gitignore file ensures that unwanted files are not pushed to the remote repository.
+    - 🛡️ **.gitignore**:  A well-crafted .gitignore file ensures that unwanted files are not pushed to the remote repository.
 
 
 
@@ -84,6 +84,17 @@ ____
 
 </details>
 
+
+
+
 Give it a try and experience the benefits of a simplified and well-structured project! Happy coding! 👩‍💻👨‍💻
 
 🚀 By adopting this clean and organized project structure, you enhance accessibility and maintainability, allowing for seamless development and collaboration.
+
+
+## 🌟 Star Us
+> If you find our project useful, please consider giving it a star on [GitHub](https://github.com/anujonthemove/Python-Machine-Learning-Template). 🤩
+
+>It motivates us to continue improving and adding new features. 💪
+
+>Thank you for your support ❤️
