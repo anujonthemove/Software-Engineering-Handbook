@@ -105,6 +105,7 @@ nav:
     - setup.py: 'python-machine-learning-template/setup.py.md'
     - .gitattributes: 'python-machine-learning-template/gitattributes.md'
     - tox.ini: 'python-machine-learning-template/tox.md'
+    - workspaces: 'python-machine-learning-template/workspaces.md'
   - IDE:
     - ide/vs-code.md
   # - Version Control:

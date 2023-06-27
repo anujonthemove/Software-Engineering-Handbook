@@ -22,3 +22,19 @@ To address these challenges, we recommend using Pipenv 🎁. Pipenv maintains tw
 - ✅ It offers clear and readable output for easy troubleshooting 📖.
 - ✅ Seamless integration with `.env`. Loads the `.env` variables during package installation 🔄.
 - ✅ To simplify handling proxy url for every pip install, you can now utilize Pipenv. Pipenv automatically reads the environment variables and incorporates them into your project 🎉.
+
+
+## Installing from custom index or self hosted repository
+
+```
+[[source]]
+url = "https://<repo1.com>/"
+verify_ssl = true
+name = "jfrog"
+
+
+[[source]]
+url = "http://<repo2.com>/"
+verify_ssl = false
+name = "cdswrepo"
+```
