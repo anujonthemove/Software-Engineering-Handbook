@@ -1,4 +1,4 @@
-## 🤔 Why Pipenv Over Pip and requirements.txt? 
+# 📢 **Pipenv replaces pip and requirements.txt**
 
 If you've been using pip for your Python package installations 📦 and requirements.txt 📜 for package dependency creation, you might have encountered the following issues:
 
@@ -27,14 +27,14 @@ To address these challenges, we recommend using Pipenv 🎁. Pipenv maintains tw
 ## Installing from custom index or self hosted repository
 
 ```
-[[source]]
-url = "https://<repo1.com>/"
-verify_ssl = true
-name = "jfrog"
+0[[source]]
+0url = "https://<repo1.com>/"
+0verify_ssl = true
+0name = "jfrog"
 
 
-[[source]]
-url = "http://<repo2.com>/"
-verify_ssl = false
-name = "cdswrepo"
+0[[source]]
+0url = "http://<repo2.com>/"
+0verify_ssl = false
+0name = "cdswrepo"
 ```

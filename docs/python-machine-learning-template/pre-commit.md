@@ -1,5 +1,7 @@
+# ⚡ **Ensuring Code Quality Before Commit ** 
 
-## ⚡ Pre-commit hook for auto formatting python code 
+
+### pre-commit hook for auto formatting python code
 
 ```yaml
 

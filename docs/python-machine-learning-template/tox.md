@@ -1,4 +1,4 @@
-## 🧪 Configuring Flake8, Black, and More with tox.ini 🐍🔧
+# 🧪 **Configuration management with tox.ini** 
 
 To ensure consistent code quality and adhere to specific coding standards in your Python project, you can utilize the power of tox and tox.ini. With tox.ini, you can define configuration settings for various tools, including Flake8, Black, and more. Follow the steps below to set up your tox.ini file:
 

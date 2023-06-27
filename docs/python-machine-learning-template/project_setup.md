@@ -1,12 +1,10 @@
-
-
-## 🚀 Platform-Specific Setup Scripts
+# 🚀 **Platform-Specific Setup Scripts**
 
 * 🔧 **Ready-to-Use Scripts for All Platforms:** Simplify the project setup process with provided scripts tailored for Linux, MacOS, and Windows, ensuring compatibility across different operating systems.
 
 * 📦 **Effortless Package Installation:** Install a curated list of Python packages defined in the Pipfile, designed specifically for Machine Learning and Software Development tasks, saving you time and effort.
 
-* 🌐 Seamless Proxy Support: Install packages effortlessly, even when behind a proxy, ensuring smooth integration with your development environment and eliminating any connectivity obstacles.
+* 🌐 **Seamless Proxy Support:** Install packages effortlessly, even when behind a proxy, ensuring smooth integration with your development environment and eliminating any connectivity obstacles.
 
 * 🗑️ **Automated Readme Cleanup:** Say goodbye to clutter! The setup script intelligently clears unnecessary information from the template Readme.MD file after project setup. Just pass the required arguments, and enjoy a clean and concise README.
 

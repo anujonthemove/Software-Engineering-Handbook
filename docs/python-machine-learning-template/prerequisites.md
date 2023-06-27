@@ -1,7 +1,4 @@
-# Prerequisites
-
-
-## 🔑 Python, Virtual Environment, VS Code(Opt)
+# 🔑 **Python, Virtual Environment, VS Code(Opt)**
 
 === "🐧Linux"
 

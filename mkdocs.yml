@@ -98,7 +98,7 @@ nav:
   - Python Machine Learning Template:
     - python-machine-learning-template/index.md
     - Prerequisites: 'python-machine-learning-template/prerequisites.md'
-    - Project Setup: 'python-machine-learning-template/setup.md'
+    - Project Setup: 'python-machine-learning-template/project_setup.md'
     - Pipenv: 'python-machine-learning-template/pipenv.md'
     - .env: 'python-machine-learning-template/dot-env.md'
     - pre-commit: 'python-machine-learning-template/pre-commit.md'
@@ -106,6 +106,7 @@ nav:
     - .gitattributes: 'python-machine-learning-template/gitattributes.md'
     - tox.ini: 'python-machine-learning-template/tox.md'
     - workspaces: 'python-machine-learning-template/workspaces.md'
+    - faqs: 'python-machine-learning-template/faqs.md'
   - IDE:
     - ide/vs-code.md
   # - Version Control:

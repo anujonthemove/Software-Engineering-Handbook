@@ -1,3 +1,5 @@
+# 🕹️ **Managing File Attributes in Git Repository**
+
 <details>
 <summary> <b> 3. 🤔 What is the use of `.gitattributes`? </b> </summary>
 

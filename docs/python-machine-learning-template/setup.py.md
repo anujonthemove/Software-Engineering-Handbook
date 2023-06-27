@@ -25,7 +25,7 @@ setup(
 
 Now, you can place your main/entrypoint code in the 'src' folder and keep your supporting code in the 'helper' directory. Your project is ready to use this clean and organized structure. -->
 
-## 📦 Packaging your Project with Setup.py 🧩
+# 📦 **Packaging your Project with Setup.py** 
 
 When working with a project structure like this, where you have supporting code in the `helpers` folder and main/entrypoint code in the `src` folder, it's essential to ensure accessibility and maintain a clean project organization. To achieve this, you can leverage the power of `setup.py` in your project.
 
