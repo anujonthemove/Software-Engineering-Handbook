@@ -4,7 +4,7 @@
 
     #### 🚀 Installing Python3 on Linux
     
-    1. Open the Terminal application.
+    1. Open the Terminal.
 
     2. Update your local package index and upgrade all your installed packages to their latest versions by running the following command:
 
@@ -50,7 +50,9 @@
 
     #### 🎨 Install VS Code on Linux
 
-    1. Install Visual Studio Code via Snap. Snap is a software deployment and package management system developed by Canonical (the company behind Ubuntu). It allows you to install software and all its dependencies via a single command. Run the following command to install Visual Studio Code:
+    1. Install Visual Studio Code via Snap. 
+    
+        Snap is a software deployment and package management system developed by Canonical (the company behind Ubuntu). It allows you to install software and all its dependencies via a single command. Run the following command to install Visual Studio Code:
 
         ```shell
         sudo snap install --classic code
@@ -68,8 +70,8 @@
 
     #### References: 
 
-    1. Getting Started with Python in VS Code: https://code.visualstudio.com/docs/python/python-tutorial 
-    2. Install Python on Ubuntu: https://www.makeuseof.com/install-python-ubuntu/
+    1. [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial) 
+    2. [How to Install Python in Ubuntu](https://www.makeuseof.com/install-python-ubuntu/)
 
 === "🍎 MacOS"
 
@@ -110,7 +112,7 @@
 
     4. Launch Visual Studio Code, then open a folder where your Python scripts are located (or create a new one). For example, create a new folder on your Desktop named "py_scripts", then try to open the folder in VS Code. VS Code may need your permission to access files in your Desktop folder; click OK if prompted.
 
-    5. Create a new file with a .py extension. For example, create a new file named "prog_01.py". VS Code will detect the .py extension and suggest installing a Python extension. Install it by clicking on the Install button.
+    5. Create a new file with a .py extension. For example, create a new file named `prog_01.py`. VS Code will detect the `.py` extension and suggest installing a Python extension. Install it by clicking on the Install button.
 
     6. Once the extension is installed, you need to select a Python interpreter. Click on the "Select Python Interpreter" button and then select the recommended Python interpreter from the list. If you have multiple versions of Python installed on your Mac, it's best to choose the latest version.
 
@@ -118,8 +120,8 @@
 
 
     #### References: 
-    1. Getting Started with Python in VS Code: https://code.visualstudio.com/docs/python/python-tutorial 
-    2. Python & VS Code installation steps on Mac: https://www.dataquest.io/blog/installing-python-on-mac/
+    1. [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
+    2. [Tutorial: Installing Python on Mac](https://www.dataquest.io/blog/installing-python-on-mac/)
     
 
 === "🪟 Windows"
@@ -151,5 +153,9 @@
 
 
 
-**Note:** If you are using Python 3.3 or newer, the venv module is the preferred way to create and manage virtual environments. venv is included in the Python standard library and requires no additional installation.
+!!! note "**Note:**"
+
+    If you are using Python 3.3 or newer, the venv module is the preferred way to create and manage virtual environments. venv is included in the Python standard library and requires no additional installation.
+
+
 

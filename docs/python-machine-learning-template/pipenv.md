@@ -27,14 +27,37 @@ To address these challenges, we recommend using Pipenv 🎁. Pipenv maintains tw
 ## Installing from custom index or self hosted repository
 
 ```
-0[[source]]
-0url = "https://<repo1.com>/"
-0verify_ssl = true
-0name = "jfrog"
+[[source]]
+url = "https://<repo1.com>/"
+verify_ssl = true
+name = "jfrog"
 
 
-0[[source]]
-0url = "http://<repo2.com>/"
-0verify_ssl = false
-0name = "cdswrepo"
+[[source]]
+url = "http://<repo2.com>/"
+verify_ssl = false
+name = "cdswrepo"
 ```
+
+## Virtual environment activation
+
+Linux, Mac, Win
+
+
+
+   #### 📝 Important Note 
+
+ 
+
+    *  🤚 If you have installed Python virtual environment and virtual environment wrapper and have set up a centralized location for virtual environments, you may have added the following to your `.bashrc` or `.zshrc` file:
+
+        ```
+        # virtualenv and virtualenvwrapper
+        export WORKON_HOME=$HOME/.virtualenvs
+        export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+        source /usr/local/bin/virtualenvwrapper.sh
+        ```
+
+    
+
+
