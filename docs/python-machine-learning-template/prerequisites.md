@@ -1,4 +1,19 @@
-# 🔑 **Python, Virtual Environment, VS Code(Opt)**
+# 🔑 **Prerequisites for Project Setup**
+
+Before you begin setting up this project, ensure you have the following requirements in place:
+
+1. **Python**: It's essential to have Python installed on your system. We highly recommend using the official CPython distribution, which can be obtained from [python.org](https://www.python.org/).
+
+2. **Virtual Environment**: A virtual environment is required to manage the project's dependencies separately from your global Python environment. 
+
+    !!! note
+        If you're using Python 3.3 or a newer version, we strongly advise utilizing the `venv` module. This module is included in the Python standard library and doesn't require any additional installation.
+
+3. **VS Code (Optional)**: While not mandatory, we highly recommend using Visual Studio Code (VS Code) as your code editor for all your projects.
+
+These prerequisites are minimal and straightforward to fulfill, ensuring that the project setup process is hassle-free.
+
+## **Prerequisite installation instructions**
 
 === "🐧Linux"
 
@@ -153,9 +168,8 @@
 
 
 
-!!! note "**Note:**"
 
-    If you are using Python 3.3 or newer, the venv module is the preferred way to create and manage virtual environments. venv is included in the Python standard library and requires no additional installation.
+
 
 
 

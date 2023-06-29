@@ -1,4 +1,4 @@
-# Software Engineering Handbook 📔
+# Software Engineering Handbook
 
 
 🚧 Under construction🚧

@@ -1,7 +1,4 @@
-
-# Python Machine Learning Template
-
-##  🧠 **Philosophy**
+# 🧠 **Philosophy**
 
 > This template is meticulously designed to encapsulate the three core components of a Machine Learning project: **Code**, **Data**, and **Models**. The primary objective is to cohesively organize these components within the project structure, thereby enhancing manageability and maintainability.
 

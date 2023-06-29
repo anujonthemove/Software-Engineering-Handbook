@@ -1,16 +1,3 @@
-<!-- # 🚀 **Platform-Specific Setup Scripts**
-
-* 🔧 **Ready-to-Use Scripts for All Platforms:** Project setup scripts have been provided for all Linux, MacOS, and Windows which helps in setting up identical virtual environment across all of the platoforms.
-
-* 📦 **Package Installation:** We use Pipfile(an alternate of requirements.txt), a human readable format,  to define a set of essentail packages for Machine Learning and Software Development tasks. These packages are installed using Pipenv(a better alternate of pip) to install these pacakges during the setup. To know how to utilize Pipenv, You may want to check out [Pipenv](pipenv.md) for more details.
-
-* 🌐 **Seamless Proxy Support:** Install packages, even when behind a proxy, ensuring smooth integration with your development environment and eliminating any connectivity obstacles. Check out our documentation about how it works on [Pipenv](pipenv.md)
-
-* 🗑️ **Automated Readme Cleanup:** The setup script can help you clear the template Readme.MD file after project setup. Just pass the required arguments to the script. More details about the usage below.
-
-* 💡 **Virtual Environment Activation:** Upon successful execution of the setup script, a virtual environment named .venv will be activated automatically in your terminal. -->
-
-
 # 🚀 **Platform-Specific Setup Scripts**
 
 - 🚦 **Ready-to-Use Scripts for All Platforms:** We have prepared setup scripts for Linux, MacOS, and Windows platforms to ensure that the virtual environment is set up consistently across all platforms. These scripts will save you time and effort in setting up your project.

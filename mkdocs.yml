@@ -1,4 +1,4 @@
-site_name: Software Engineering Handbook 📔
+site_name: Software Engineering Handbook
 site_description: Software Engineering Handbook
 
 repo_url: https://github.com/anujonthemove/Software-Engineering-Handbook
@@ -78,6 +78,9 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.magiclink
   - admonition
+  - admonition
+  - pymdownx.details
+
 
 extra_css:
   - stylesheets/asciinema-player.css
