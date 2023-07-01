@@ -123,4 +123,3 @@ These pre-commit hooks help to maintain the quality of your code and notebooks, 
 
 In order to install additional hooks like the few stated above, please follow the above [steps](#heres-how-it-works)
 
-Checkout the [pre-commit framework ](https://pre-commit.com/) for more details!

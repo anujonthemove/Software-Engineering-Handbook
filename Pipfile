@@ -9,3 +9,4 @@ mkdocs-material = "*"
 mkdocs-glightbox = "*"
 
 [dev-packages]
+ipykernel = "*"

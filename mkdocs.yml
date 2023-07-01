@@ -100,12 +100,14 @@ nav:
   - Home: 'index.md'
   - Python Machine Learning Template:
     - python-machine-learning-template/index.md
+    - Process Flow: 'python-machine-learning-template/process-flow.md'
     - Prerequisites: 'python-machine-learning-template/prerequisites.md'
-    - Project Setup: 'python-machine-learning-template/project_setup.md'
+    - Project Setup: 'python-machine-learning-template/project-setup.md'
     - Pipenv: 'python-machine-learning-template/pipenv.md'
     - .env: 'python-machine-learning-template/dot-env.md'
     - pre-commit: 'python-machine-learning-template/pre-commit.md'
     - setup.py: 'python-machine-learning-template/setup.py.md'
+    - Loading Files in Python Projects: 'python-machine-learning-template/loading-files-in-python-projects.md'
     - .gitattributes: 'python-machine-learning-template/gitattributes.md'
     - tox.ini: 'python-machine-learning-template/tox.md'
     - workspaces: 'python-machine-learning-template/workspaces.md'
