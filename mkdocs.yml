@@ -111,6 +111,7 @@ nav:
     - .gitattributes: 'python-machine-learning-template/gitattributes.md'
     - tox.ini: 'python-machine-learning-template/tox.md'
     - workspaces: 'python-machine-learning-template/workspaces.md'
+    - Miscellaneous: 'python-machine-learning-template/miscellaneous.md'
     - faqs: 'python-machine-learning-template/faqs.md'
   - IDE:
     - ide/vs-code.md

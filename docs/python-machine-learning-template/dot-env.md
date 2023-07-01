@@ -25,26 +25,6 @@ OPENAI_API_KEY='xxxx-xxxx'
 
 Replace `xxxx-xxxx` with your actual OpenAI API key.
 
-<!-- To utilize these credentials into your Python code, you can use the `python-decouple` library. This library separates the settings parameters from your source code, allowing your project to be more secure, scalable, and to change configurations easily.
-
-Here's an example of how you can use `python-decouple`:
-
-```python
-
-from decouple import config
-
-# Get the API key
-api_key = config('OPENAI_API_KEY')
-
-# Now you can use the api_key variable in your code
-
-```
-
-In this example, `config('OPENAI_API_KEY')` retrieves the value of OPENAI_API_KEY from the `.env` file. You can use this method to retrieve any values stored in the `.env ` file.
-
-_Remember to replace `xxxx-xxxx` in the `.env` file with the actual key you want to retrieve from the variable `OPENAI_API_KEY`._ 
- -->
-
 
 ### 👨‍🔧 **Using .env variables inside Python code**
 

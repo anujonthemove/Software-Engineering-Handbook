@@ -2,7 +2,7 @@
 
 While working with a project structure where supporting code resides in folders at the same level as the `src` folder, you may encounter difficulties importing sub-modules from the `helpers` folder into the main/entrypoint code in the `src` folder. This issue can be resolved by utilizing `setup.py` in your project.
 
-#### Here's a step-by-step guide to achieving this:
+**Here's a step-by-step guide to achieving this:**
 
 1. 📂 Open the `setup.py` file provided in your project. This file is crucial as it defines your project's configuration.
 
@@ -53,7 +53,7 @@ While working with a project structure where supporting code resides in folders 
         ```
 
     !!! note
-        *   ✅ Ensure you include the . at the end of the command. This command installs your project as a package, granting it importability and enabling you to organize your code in a modular and convenient manner.
+        *   ✅ Ensure you include the `.` at the end of the command. This command installs your project as a package, granting it importability and enabling you to organize your code in a modular and convenient manner.
 
         *   🆗 This should automatically add your project as a package to your current virtual environment. You can verify the same in your `Pipfile`. You should see the following line:
         
