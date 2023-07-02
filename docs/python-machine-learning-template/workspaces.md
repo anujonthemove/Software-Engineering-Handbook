@@ -4,10 +4,9 @@ The `workspaces` folder is intended for scenarios where multiple people are work
 
 Inside the `workspaces` folder, you can create subfolders named after each developer, allowing them to clone the project and work on different branches. 
 
-These subdirectories are not tracked by Git, enabling multiple people to collaborate on the same project without conflicts. 
+The template has been cleverly configured in a way that git will not track these subdirectories from the root of the project but inside each of the cloned project, git will work normally. This enables multiple people to collaborate on the same project without conflicts. 
 
-To incorporate changes, developers can merge their branches with a common branch located at the root level.
-
+To incorporate their individual changes, developers can merge their branches respective branch with a common branch located at the root level.
 
 
 <div align="center">

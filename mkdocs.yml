@@ -12,8 +12,6 @@ theme:
     text: Epilogue
     code: Roboto Mono
     language: en
-  # favicon: images/favicon.ico
-  # logo: assets/logo.png
 
   features:
     - navigation.top
@@ -70,7 +68,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          # format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true 
 
@@ -80,6 +78,13 @@ markdown_extensions:
   - admonition
   - admonition
   - pymdownx.details
+  - toc:
+      permalink: true
+      toc_depth: 3
+  
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 
 extra_css:
@@ -112,8 +117,6 @@ nav:
     - tox.ini: 'python-machine-learning-template/tox.md'
     - workspaces: 'python-machine-learning-template/workspaces.md'
     - Miscellaneous: 'python-machine-learning-template/miscellaneous.md'
-    - faqs: 'python-machine-learning-template/faqs.md'
+    - FAQs: 'python-machine-learning-template/faqs.md'
   - IDE:
     - ide/vs-code.md
-  # - Version Control:
-  #   - version-control/git-flow-model.md

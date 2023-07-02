@@ -56,6 +56,30 @@ In Machine Learning projects, the output of text in Jupyter cells can be very la
 
 While the following hooks are not implemented by default, it is highly recommended as they can ensure your code conforms to PEP8 standards.
 
+
+### 🚫 **Stop Direct Commits to the Main Branch**
+
+In a project, the `main` branch is like the final copy of your code. It's important to keep this branch clean and error-free. So, instead of directly making changes to the `main` branch, we usually make changes in a different branch and then combine it with the `main` branch. This combining process is called a Pull Request (PR).
+
+But, what if someone accidentally makes a change directly in the `main` branch?
+
+Here's a pre-commit hook that stops us from committing changes directly to the `main` branch:
+
+
+```yaml
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v3.4.0
+  hooks:
+    - id: no-commit-to-branch
+      args: ['--branch', 'main']
+
+```
+
+By using this, we make sure that the main branch is safe from direct changes. This way, we can keep our main branch clean and our code error-free.
+
+
+
 ### 🔥 **Auto-formatting Python Code**
 
 This hook automatically formats your Python code to adhere to PEP8 standards.
@@ -123,3 +147,16 @@ These pre-commit hooks help to maintain the quality of your code and notebooks, 
 
 In order to install additional hooks like the few stated above, please follow the above [steps](#heres-how-it-works)
 
+____
+
+## 🚧 **Bypassing Pre-Commit Checks**
+
+Pre-commit hooks are installed to enforce certain rules and maintain code quality. However, in rare cases, you might find yourself needing to bypass these checks. While it's generally not recommended to do this, it's important to know how it can be done if the situation calls for it.
+
+Here's how you can bypass pre-commit checks:
+
+```bash
+git commit --no-verify -m "Your commit message"
+```
+
+This command will allow you to commit your changes without running the pre-commit checks. Remember, this should only be used in exceptional circumstances and not as a regular practice.

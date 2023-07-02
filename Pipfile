@@ -7,6 +7,8 @@ name = "pypi"
 mkdocs = "*"
 mkdocs-material = "*"
 mkdocs-glightbox = "*"
+pillow = "*"
+cairosvg = "*"
 
 [dev-packages]
 ipykernel = "*"
