@@ -118,5 +118,5 @@ nav:
     - workspaces: 'python-machine-learning-template/workspaces.md'
     - Miscellaneous: 'python-machine-learning-template/miscellaneous.md'
     - FAQs: 'python-machine-learning-template/faqs.md'
-  - IDE:
-    - ide/vs-code.md
+  # - IDE:
+  #   - ide/vs-code.md
