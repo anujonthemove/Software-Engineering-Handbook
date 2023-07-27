@@ -20,7 +20,7 @@ graph TB
 
 </div>
 
-### 🪜 ** Step-by-step instructions**
+### **🪜 Step-by-step instructions**
 
 1. Go to [**Python Machine Learning Template**](https://github.com/anujonthemove/Python-Machine-Learning-Template) on Github.
 
